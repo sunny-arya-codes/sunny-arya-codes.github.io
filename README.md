@@ -23,9 +23,8 @@ I'm a Results-driven Software Engineer with over a year of professional experien
 
 ###  competitively on:
 
-* **LeetCode:** [leetcode.com/sunnyaryaiitm](https://www.leetcode.com/sunnyaryaiitm)
-* **HackerRank:** [hackerrank.com/@22f20011291](https://www.hackerrank.com/@22f20011291)
-* **CodeChef:** [codechef.com/users/sunnyaryaiitm](https://www.codechef.com/users/sunnyaryaiitm)
+* **LeetCode:** [https://leetcode.com/u/DFwHbZtWxe/](https://leetcode.com/u/DFwHbZtWxe/)
+* **HackerRank:** [https://www.hackerrank.com/profile/sunnyarya_study](https://www.hackerrank.com/profile/sunnyarya_study)
 * **Kaggle:** [kaggle.com/sunnyaryaiitm](https://kaggle.com/sunnyaryaiitm)
 
 ---
