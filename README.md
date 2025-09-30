@@ -25,7 +25,7 @@ I'm a Results-driven Software Engineer with over a year of professional experien
 
 * **LeetCode:** [https://leetcode.com/u/DFwHbZtWxe/](https://leetcode.com/u/DFwHbZtWxe/)
 * **HackerRank:** [https://www.hackerrank.com/profile/sunnyarya_study](https://www.hackerrank.com/profile/sunnyarya_study)
-* **Kaggle:** [kaggle.com/sunnyaryaiitm](https://kaggle.com/sunnyaryaiitm)
+* **Kaggle:** [kaggle.com/thesunnyarya](https://www.kaggle.com/thesunnyarya)
 
 ---
 
