@@ -1,4 +1,4 @@
-# 🚀 Harnoor Singh - Portfolio
+# 🚀 Sunni Kumar - Portfolio
 
 A bold, modern portfolio website built with NeoBrutalism design principles.
 
@@ -19,11 +19,9 @@ portfolio/
 └── README.md          # This file
 ```
 
-## 🚀 Deployment Options for hsinghplay.usa.dev
+## 🚀 Deployment to sunny-arya-codes.github.io
 
-### Option 1: Cloudflare Pages (RECOMMENDED - FREE)
-
-Cloudflare Pages is perfect since your domain is already on Cloudflare!
+### Option 1: GitHub Pages (RECOMMENDED - FREE)
 
 **Steps:**
 1. **Create a GitHub repository** for your portfolio
@@ -33,56 +31,44 @@ Cloudflare Pages is perfect since your domain is already on Cloudflare!
    git add .
    git commit -m "Initial portfolio commit"
    git branch -M main
-   git remote add origin https://github.com/iharnoor/portfolio.git
+   git remote add origin https://github.com/sunny-arya-codes/sunny-arya-codes.github.io.git
    git push -u origin main
    ```
 
-2. **Connect to Cloudflare Pages**
-   - Go to Cloudflare Dashboard → Pages
-   - Click "Create a project"
-   - Connect your GitHub account
-   - Select your portfolio repository
-   - Build settings:
-     - Framework preset: None
-     - Build command: (leave empty)
-     - Build output directory: `/`
-   - Click "Save and Deploy"
+2. **Enable GitHub Pages**
+   - Go to your repository Settings → Pages
+   - Source: Deploy from branch `main`
+   - Folder: `/ (root)`
+   - Click Save
 
-3. **Add Custom Domain**
-   - In Cloudflare Pages → Your project → Custom domains
-   - Click "Set up a custom domain"
-   - Enter: `hsinghplay.usa.dev`
-   - Cloudflare will automatically configure DNS
-   - ✅ Done! Your site will be live in minutes
+3. **Your site is live!**
+   - ✅ Visit: https://sunny-arya-codes.github.io
+   - ✅ Automatic HTTPS
+   - ✅ Auto-deploys on every push
 
 **Benefits:**
 - ✅ Free forever
 - ✅ Automatic HTTPS
-- ✅ Global CDN (super fast)
 - ✅ Automatic deployments from Git
-- ✅ Unlimited bandwidth
-- ✅ Built-in analytics
+- ✅ Easy setup
 
 ---
 
-### Option 2: GitHub Pages (FREE)
+### Option 2: Cloudflare Pages (FREE)
 
 **Steps:**
-1. Create a repo named `iharnoor.github.io` or any name
-2. Push your portfolio files
-3. Go to Settings → Pages
-4. Source: Deploy from branch `main`
-5. Custom domain: `hsinghplay.usa.dev`
-6. Add CNAME record in Cloudflare DNS:
-   ```
-   CNAME  @  iharnoor.github.io
-   ```
+1. Push code to GitHub
+2. Go to Cloudflare Dashboard → Pages
+3. Click "Create a project"
+4. Connect your GitHub repository
+5. Deploy settings: None needed
+6. Add custom domain if desired
 
 **Benefits:**
-- ✅ Free
-- ✅ Easy to use
-- ✅ Automatic HTTPS
-- ⚠️ Limited to 100GB bandwidth/month
+- ✅ Free forever
+- ✅ Global CDN (super fast)
+- ✅ Unlimited bandwidth
+- ✅ Built-in analytics
 
 ---
 
@@ -92,8 +78,7 @@ Cloudflare Pages is perfect since your domain is already on Cloudflare!
 1. Push code to GitHub
 2. Go to [vercel.com](https://vercel.com)
 3. Import your repository
-4. Add custom domain: `hsinghplay.usa.dev`
-5. Update Cloudflare DNS with Vercel's nameservers
+4. Add custom domain if desired
 
 **Benefits:**
 - ✅ Free for personal projects
@@ -136,8 +121,7 @@ Cloudflare Pages is perfect since your domain is already on Cloudflare!
    - Customize `script.js` for interactions
 
 3. **Customize:**
-   - Replace `email@example.com` with your real email
-   - Update YouTube link if needed
+   - Update contact information in `index.html`
    - Add more projects or sections as desired
 
 ## 🔧 Customization Guide
@@ -161,14 +145,12 @@ All content is in `index.html` - simply edit the text within the HTML tags.
 ## 📦 Production Checklist
 
 Before deploying:
-- [ ] Update email address
 - [ ] Verify all links work
 - [ ] Test on mobile devices
 - [ ] Check all images load
 - [ ] Test smooth scrolling
 - [ ] Verify responsiveness
 - [ ] Add favicon (optional)
-- [ ] Add meta tags for SEO (optional)
 
 ## 🌟 Features to Add (Optional)
 

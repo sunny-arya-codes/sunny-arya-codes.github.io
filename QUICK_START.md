@@ -2,16 +2,14 @@
 
 ## 🎯 Your Mission: Get Your Portfolio Live
 
-Your portfolio is ready! Here's the fastest path to `hsinghplay.usa.dev`:
+Your portfolio is ready! Here's the fastest path to `sunny-arya-codes.github.io`:
 
 ---
 
 ## 📋 Pre-Flight Checklist
 
 - [ ] Portfolio looks good in browser ✅ (already open!)
-- [ ] Update email in `index.html` (search for `email@example.com`)
 - [ ] Create GitHub account (if you don't have one)
-- [ ] Access to Cloudflare Dashboard for your domain
 
 ---
 
@@ -19,45 +17,38 @@ Your portfolio is ready! Here's the fastest path to `hsinghplay.usa.dev`:
 
 ### 1️⃣ Create GitHub Repo (1 min)
 Go to: https://github.com/new
-- Name: `portfolio` or `hsinghplay`
-- Public or Private (doesn't matter)
+- Name: `sunny-arya-codes.github.io`
+- Public
 - Don't initialize with README
 - Click "Create repository"
 
 ### 2️⃣ Push Your Code (1 min)
 ```bash
-cd /Users/harnoorsingh/Developer/attractive-typst-resume/portfolio
+cd portfolio
 
 git init
 git add .
 git commit -m "Launch portfolio 🚀"
 git branch -M main
-git remote add origin https://github.com/iharnoor/YOUR-REPO-NAME.git
+git remote add origin https://github.com/sunny-arya-codes/sunny-arya-codes.github.io.git
 git push -u origin main
 ```
 
-### 3️⃣ Deploy on Cloudflare Pages (2 min)
-1. Go to https://dash.cloudflare.com/
-2. Click "Workers & Pages" → "Create application" → "Pages"
-3. Click "Connect to Git"
-4. Select your portfolio repo
-5. Keep all settings default
-6. Click "Save and Deploy"
-7. Wait ~30 seconds
-
-### 4️⃣ Add Your Domain (1 min)
-1. In your Cloudflare Pages project
-2. "Custom domains" → "Set up a custom domain"
-3. Enter: `hsinghplay.usa.dev`
-4. Click "Continue" → "Activate domain"
-5. Done! 🎉
+### 3️⃣ Enable GitHub Pages (1 min)
+1. Go to your repository on GitHub
+2. Click "Settings" tab
+3. Click "Pages" in the left sidebar
+4. Under "Source", select "Deploy from a branch"
+5. Select branch: `main`, folder: `/ (root)`
+6. Click "Save"
+7. Wait ~1-2 minutes
 
 ---
 
 ## ✅ Success!
 
 Your portfolio should now be live at:
-**https://hsinghplay.usa.dev**
+**https://sunny-arya-codes.github.io**
 
 ---
 
@@ -70,15 +61,15 @@ git commit -m "Update content"
 git push
 ```
 
-Cloudflare automatically rebuilds and deploys in ~1 minute!
+GitHub Pages automatically rebuilds and deploys in ~1-2 minutes!
 
 ---
 
 ## 🆘 Need Help?
 
 - **Can't push to GitHub?** Make sure you created the repo first
-- **Domain not working?** Wait 5 minutes for DNS
-- **Site looks broken?** Clear cache (Cmd+Shift+R)
+- **Site not showing?** Wait 5 minutes for GitHub Pages to build
+- **Site looks broken?** Clear cache (Ctrl+Shift+R)
 
 ---
 
