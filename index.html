@@ -1,1 +1,325 @@
-Hi
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Sunny Arya - Backend & GenAI Engineer">
+  <title>Sunny Arya — Backend & GenAI Engineer</title>
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- Preconnect to Google Fonts for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+  <!-- BRUTALIST MARQUEE -->
+  <div class="marquee">
+    <div class="marquee__inner">
+      <span>AVAILABLE FOR SECURE ROLES ✦ BACKEND ENGINEER ✦ GEN-AI EXPERT ✦ IIT MADRAS DATA SCIENCE ✦ SPRING BOOT & FASTAPI ✦ LET'S TALK ✦</span>
+      <span>AVAILABLE FOR SECURE ROLES ✦ BACKEND ENGINEER ✦ GEN-AI EXPERT ✦ IIT MADRAS DATA SCIENCE ✦ SPRING BOOT & FASTAPI ✦ LET'S TALK ✦</span>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar__inner">
+      <a href="#" class="navbar__logo">sunni.dev/_</a>
+      
+      <ul class="navbar__links">
+        <li><a href="#about" class="navbar__link">ABOUT</a></li>
+        <li><a href="#skills" class="navbar__link">SKILLS</a></li>
+        <li><a href="#experience" class="navbar__link">EXPERIENCE</a></li>
+        <li><a href="#projects" class="navbar__link">PROJECTS</a></li>
+        <li><a href="assets/files/Sunni_Kumar_Resume.pdf" target="_blank" class="navbar__link">RESUME</a></li>
+      </ul>
+
+      <div style="display: flex; gap: 16px; align-items: center;">
+        <a href="#contact" class="navbar__cta">CONTACT</a>
+        
+        <!-- Mobile Toggle -->
+        <button class="navbar__toggle" aria-label="Toggle Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu">
+    <a href="#about" class="mobile-menu__link">ABOUT</a>
+    <a href="#skills" class="mobile-menu__link">SKILLS</a>
+    <a href="#experience" class="mobile-menu__link">EXPERIENCE</a>
+    <a href="#projects" class="mobile-menu__link">PROJECTS</a>
+    <a href="assets/files/Sunni_Kumar_Resume.pdf" target="_blank" class="mobile-menu__link">RESUME ↓</a>
+    <a href="#contact" class="mobile-menu__link">CONTACT</a>
+  </div>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero container">
+      <div class="hero__grid">
+        <div class="hero__content reveal">
+          <div class="hero__greeting">Hello World, I am</div>
+          <h1 class="hero__name">SUNNY ARYA.</h1>
+          <div class="hero__typed-wrapper">
+            > <span id="typed-text"></span><span class="hero__typed-cursor">_</span>
+          </div>
+          <p class="hero__title">
+            Backend & GenAI Engineer with production experience scaling systems. I build high-performance APIs, event-driven architectures, and intelligent RAG pipelines.
+          </p>
+          <div class="hero__actions">
+            <a href="#projects" class="btn btn--primary">SEE WORK</a>
+            <a href="#contact" class="btn btn--outline">HIRE ME</a>
+            <a href="assets/files/Sunni_Kumar_Resume.pdf" target="_blank" class="btn btn--outline" style="background: var(--accent-yellow);">RESUME ↓</a>
+          </div>
+        </div>
+
+        <div class="hero__visual reveal reveal-delay-2">
+          <div class="hero__avatar-wrap">
+            <img src="assets/images/profile_avatar.png" alt="Sunny Arya">
+          </div>
+          
+          <div class="hero__float-badge hero__float-badge--top">
+            SPRING & FASTAPI
+          </div>
+          <div class="hero__float-badge hero__float-badge--bottom">
+            GEN-AI
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="container">
+      <div class="section-label">01. ABOUT ME</div>
+      <h2 class="section-title">ENGINEER. DATA SCIENTIST.</h2>
+      
+      <div class="about__grid">
+        <div class="about__text-box reveal">
+          <p class="about__text">
+            I am Sunny Arya (formally Sunni Kumar on documents), a Backend & GenAI Engineer currently building production-grade automation systems at FreshMenu, while simultaneously pursuing my B.S. in Data Science at IIT Madras.
+          </p>
+          <p class="about__text">
+            My expertise lies in developing scalable architectures in Java (Spring Boot) and Python (FastAPI), leading complex GenAI document-retrieval (RAG) pipelines, and architecting robust data solutions that save concrete business hours.
+          </p>
+        </div>
+        
+        <div class="about__stats reveal reveal-delay-2">
+          <div class="stat-card">
+            <div class="stat-card__number">2+</div>
+            <div class="stat-card__label">YRS EXP</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-card__number">1200+</div>
+            <div class="stat-card__label">DSA SOLVED</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-card__number">IIT-Madras</div>
+            <div class="stat-card__label">SCHOLAR</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="container">
+      <div class="section-label">02. TECH STACK</div>
+      <h2 class="section-title">MY TOOLBOX</h2>
+      
+      <div class="skills__grid reveal">
+        <div class="skill-card">
+          <div class="skill-card__icon">PY/JV</div>
+          <h3 class="skill-card__name">PYTHON & JAVA</h3>
+        </div>
+        
+        <div class="skill-card">
+          <div class="skill-card__icon">
+            API
+          </div>
+          <h3 class="skill-card__name">SPRING BOOT & FASTAPI</h3>
+        </div>
+        
+        <div class="skill-card">
+          <div class="skill-card__icon">AI</div>
+          <h3 class="skill-card__name">LANGCHAIN & LLMs</h3>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">SQL</div>
+          <h3 class="skill-card__name">POSTGRES & PGVECTOR</h3>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">DEV</div>
+          <h3 class="skill-card__name">DOCKER & AWS</h3>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">MQ</div>
+          <h3 class="skill-card__name">ACTIVEMQ & EVENT DRIVEN</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience" class="container">
+      <div class="section-label">03. GRIND</div>
+      <h2 class="section-title">WORK HISTORY</h2>
+      
+      <div class="experience__timeline reveal">
+        <!-- Job 1 -->
+        <div class="timeline-item__card">
+          <div class="timeline-item__period-box">2024 - 2026</div>
+          <div>
+            <h3 class="timeline-item__role">SOFTWARE DEVELOPER</h3>
+            <div class="timeline-item__company">FreshMenu</div>
+            <p class="timeline-item__desc">
+              Built automated financial reconciliation workflows reducing manual effort by 15+ hrs/week. Designed an AI-driven procurement system using FAISS and LLMs. Scaled core Java REST APIs and led end-to-end ONDC integrations.
+            </p>
+          </div>
+        </div>
+
+        <!-- Job 2 -->
+        <div class="timeline-item__card">
+          <div class="timeline-item__period-box">2023 - 2024</div>
+          <div>
+            <h3 class="timeline-item__role">SDE INTERN</h3>
+            <div class="timeline-item__company">FreshMenu</div>
+            <p class="timeline-item__desc">
+              Learned the ropes on production Spring Boot systems. Shipped third-party integrations (Thrive), fixed severe API bugs, and mastered production debugging logs using Kibana under heavy startup load.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="container">
+      <div class="section-label">04. WORKS</div>
+      <h2 class="section-title">SHIPPED PROJECTS</h2>
+      
+      <div class="projects__grid">
+        <!-- Project 1 -->
+        <div class="project-card reveal">
+          <div class="project-card__image">
+            <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=600&q=80" alt="AI Agent Interface">
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__tags">
+              <span class="project-card__tag">FASTAPI</span>
+              <span class="project-card__tag">LANGCHAIN</span>
+              <span class="project-card__tag">PGVECTOR</span>
+              <span class="project-card__tag">AWS</span>
+            </div>
+            <h3 class="project-card__title">AI ACADEMIC AGENT</h3>
+            <p class="project-card__desc">
+              Full-stack RAG pipeline deployed on AWS. Enables intelligent document search using OpenAI, pgvector, and LangChain with a real-time Vue 3 frontend interface.
+            </p>
+            <div class="project-card__links">
+              <a href="https://github.com/sunny-arya-codes" target="_blank" class="project-card__link">GITHUB</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card reveal reveal-delay-2">
+          <div class="project-card__image">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80" alt="Data Analytics Dashboard">
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__tags">
+              <span class="project-card__tag">PYTHON</span>
+              <span class="project-card__tag">XGBOOST</span>
+              <span class="project-card__tag">PANDAS</span>
+            </div>
+            <h3 class="project-card__title">CRIME PREDICTION</h3>
+            <p class="project-card__desc">
+              A multi-class classification model deployed via XGBoost, analyzing complex spatio-temporal patterns across 800K+ records to successfully predict hotspots.
+            </p>
+            <div class="project-card__links">
+              <a href="https://github.com/sunny-arya-codes" target="_blank" class="project-card__link">GITHUB</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="container">
+      <div class="section-label">05. SECURE THE BAG</div>
+      <h2 class="section-title">LET'S TALK</h2>
+      
+      <div class="contact__grid">
+        <div class="contact__info reveal">
+          <p class="contact__info-text">
+            Looking for a Backend or GenAI developer who actually builds production scale code? Send an email or connect on LinkedIn.
+          </p>
+          
+          <div class="contact__links">
+            <a href="mailto:contact.sunnyarya@gmail.com" class="contact__link-item" target="_blank">
+              <div class="contact__link-icon">@</div>
+              <div>
+                <span class="contact__link-label">EMAIL DIRECT</span>
+                <span class="contact__link-value">contact.sunnyarya@gmail.com</span>
+              </div>
+            </a>
+            
+            <a href="https://linkedin.com/in/sunni-kumar" class="contact__link-item" target="_blank">
+              <div class="contact__link-icon">IN</div>
+              <div>
+                <span class="contact__link-label">LINKEDIN</span>
+                <span class="contact__link-value">/sunni-kumar</span>
+              </div>
+            </a>
+            
+            <a href="https://github.com/sunny-arya-codes" class="contact__link-item" target="_blank">
+              <div class="contact__link-icon">G</div>
+              <div>
+                <span class="contact__link-label">GITHUB</span>
+                <span class="contact__link-value">/sunny-arya-codes</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        
+        <form id="contact-form" class="contact__form reveal reveal-delay-2">
+          <div class="form-group">
+            <label for="name">YOUR NAME</label>
+            <input type="text" id="name" required placeholder="John Doe">
+          </div>
+          <div class="form-group">
+            <label for="email">YOUR EMAIL</label>
+            <input type="email" id="email" required placeholder="john@company.com">
+          </div>
+          <div class="form-group">
+            <label for="message">WHAT'S THE GIG?</label>
+            <textarea id="message" required placeholder="Let's build scalable APIs..."></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary" style="width:100%; justify-content:center;">SEND IT</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <div class="footer__inner">
+      <div class="footer__copy">
+        &copy; 2026 <span class="footer__copy-accent">SUNNY ARYA</span>. DEAL WITH IT.
+      </div>
+      <div class="footer__links">
+        <a href="https://github.com/sunny-arya-codes" class="footer__link" target="_blank">GITHUB</a>
+        <a href="https://linkedin.com/in/sunni-kumar" class="footer__link" target="_blank">LINKEDIN</a>
+        <a href="assets/files/Sunni_Kumar_Resume.pdf" class="footer__link" target="_blank">RESUME</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
