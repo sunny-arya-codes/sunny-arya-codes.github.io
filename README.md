@@ -1,68 +1,70 @@
 # 🚀 Sunny Arya — Portfolio
 
-Personal portfolio repository for **Sunny Arya** (formally Sunni Kumar), a **Backend & GenAI Engineer** with production experience at FreshMenu and pursuing a B.S. in Data Science at IIT Madras.
+Personal portfolio repository for **Sunny Arya**, an **AI Engineer** specializing in building scalable backend systems and Generative AI applications. Pursuing a B.S. in Data Science at IIT Madras and currently an AI Engineer at Sponte.
 
-🌐 **Live Website:** [sunny-arya-codes.github.io](https://sunny-arya-codes.github.io/)
+🌐 **Live Website:** [sunnyarya0.github.io](https://sunnyarya0.github.io/)
 
 ---
 
-## 🎨 Design System: Neo-Brutalism
+## ✨ Features
 
-This portfolio is custom-designed using the **Neo-Brutalism** UI aesthetic. Instead of soft gradients and drop-shadow blurs, it features:
-- **Raw Typography:** Hard-hitting geometric sans-serifs (`Public Sans`) mixed with monospace fonts (`Space Mono`).
-- **High Contrast:** Bright, aggressive pastel accents (Cyber Yellow, Hot Pink, Sky Blue) against an off-white dotted grid terminal-like background.
-- **Utilitarian Borders & Shadows:** 4px solid `#000` boundaries, hard geometric `box-shadow` drops, and physical push interactions.
+- **🎯 Minimalist Design:** A clean, focused interface inspired by academic and professional portfolio styles.
+- **🌓 Dark/Light Mode:** Seamless theming support with system preference detection and local storage persistence.
+- **📱 Fully Responsive:** Optimized for all devices with a custom mobile layout featuring:
+  - Slide-in **Work Journey** history.
+  - Interactive **Mobile Navigation** dropdown.
+  - Persistent profile header for quick identification.
+- **🔍 SEO Optimized:** Complete metadata implementation including Open Graph, Twitter Cards, and canonical links for better search visibility.
+- **📄 Resume Integration:** Direct download link for professional CV.
+- **⚡ Zero Frameworks:** Built entirely with Vanilla HTML5, CSS3, and JavaScript for maximum performance and simplicity.
 
 ---
 
 ## 🛠️ Tech Stack
 
-This project strictly follows a **Zero-Framework approach**.
-- **HTML5:** Semantic, clean document structure.
-- **Vanilla CSS3:** Native CSS variables, grid systems, and flexbox implementations—no Tailwind or Bootstrap needed.
-- **Vanilla JavaScript:** IntersectionObservers for scroll reveals, custom typing effects, and brutalist scroll-snapping.
+- **HTML5:** Semantic document structure.
+- **CSS3:** Modern CSS variables (Custom Properties), Flexbox, and CSS Grid.
+- **JavaScript:** Custom rendering engine for dynamic experience/project lists and interactive UI components.
+- **Robots.txt:** Basic search engine crawler configuration.
 
-### Directory Structure
+---
+
+## 📂 Directory Structure
 
 ```
 .
-├── index.html                  # Core document structure and content
-├── css/
-│   └── style.css               # The Neo-Brutalist design system & responsive UI
-├── js/
-│   └── main.js                 # Smooth/Brutal revealing, marquee logic & typed text
-├── assets/
-│   ├── images/
-│   │   └── profile_avatar.png  # Generated developer avatar
-│   └── files/
-│       └── Sunni_Kumar_Resume.pdf # Downloadable CV
-└── README.md
+├── index.html          # Main entry point and SEO metadata
+├── style.css           # Polished minimal design & responsive media queries
+├── script.js           # Dynamic content rendering & UI interaction logic
+├── robots.txt          # SEO crawler instructions
+├── hero.png            # Profile image
+├── resume.pdf          # Professional CV
+└── README.md           # Project documentation
 ```
+
+---
+
+## 🚀 Local Development
+
+Since this project uses no external libraries or build tools, you can run it instantly:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/sunnyarya0/sunnyarya0.github.io.git
+   ```
+2. **Open index.html:**
+   Simply open `index.html` in any web browser to view the site locally.
 
 ---
 
 ## 💡 About Sunny Arya
 
-Focused on high-performance APIs, event-driven architectures, and intelligent automation systems. Key skills highlighted in this portfolio:
-- **Languages:** Python, Java, SQL, TypeScript
-- **Backend:** FastAPI, Spring Boot, Node.js
-- **GenAI & ML:** LangChain, RAG Pipelines, pgvector, Hugging Face, XGBoost
-- **DevOps:** AWS, Docker, GitHub Actions, Nginx
+Currently focused on architecting Generative AI workflows and high-performance backend systems.
+- **Languages:** Java, Python, JavaScript, SQL
+- **Backend:** Spring Boot, FastAPI, Node.js
+- **AI/ML:** LLMs, RAG, LangChain, FAISS, pgvector
+- **Tools:** AWS, Docker, Git
 
 ---
 
-## 🚀 How to Customise / Deploy
-
-Since this project relies completely on core web technologies, there's no build step required.
-
-1. **Clone the repo:**
-   ```bash
-   git clone https://github.com/sunny-arya-codes/sunny-arya-codes.github.io.git
-   ```
-2. **Local Preview:** Simply open `index.html` in your favorite web browser.
-3. **Updating Styles:** Head into `css/style.css` and tweak variables like `--accent-pink` or `--border-thick` to instantly change the vibe.
-4. **Deploying:** GitHub Pages automatically hosts this! Just push any changes to the `main` branch.
-
----
-
-*Written & Engineered without fluff.*
+*Engineered for performance and clarity.*
